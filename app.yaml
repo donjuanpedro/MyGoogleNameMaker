@@ -1,0 +1,9 @@
+#start runtime
+
+runtime: nodejs
+env: flex
+
+#end runtime
+
+skip_files:
+  - ^node_modules/(.*/)?
