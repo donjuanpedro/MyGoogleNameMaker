@@ -30,5 +30,48 @@
       "count": 0
     }
   ],
-  
+  "id": "01c9e176-80f8-4f63-a661-9efb715f847e",
+  "name": "make_name",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "make_name",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "promps": [
+            "what is your lucky number?"
+          ],
+          "isList": false,
+        },
+        {
+          "required": true,
+          "dataType": "@sys.color",
+          "name": "color",
+          "value": "$color",
+          "prompts": [
+            "What is your favorite color?",
+            "What color is your favorite?"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type":0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
 }
